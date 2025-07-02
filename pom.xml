@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>lutece-site-pom</artifactId>
+        <groupId>fr.paris.lutece.tools</groupId>
+        <version>7.0.2-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>fr.paris.lutece.themes</groupId>
+    <artifactId>theme-appointment-starter</artifactId>
+    <packaging>lutece-site</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    
+    <scm>
+        <connection>scm:git:https://github.com/lutece-platform/theme-appointment-starter.git</connection>
+        <developerConnection>scm:git:https://github.com/lutece-platform/theme-appointment-starter.git</developerConnection>
+        <url>https://github.com/lutece-platform/theme-appointment-starter</url>
+    </scm>
+    
+    <repositories>
+        <repository>
+            <id>luteceSnapshot</id>
+            <name>luteceSnapshot</name>
+            <url>https://dev.lutece.paris.fr/snapshot_repository</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>lutece</id>
+            <name>luteceRepository</name>
+            <url>https://dev.lutece.paris.fr/maven_repository</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    
+    <dependencies>
+        <dependency>
+            <groupId>fr.paris.lutece</groupId>
+            <artifactId>lutece-core</artifactId>
+            <version>[7.0.14,)</version>
+            <type>lutece-core</type>
+        </dependency>
+        
+        <!-- Appointment -->
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>plugin-appointment</artifactId>
+            <version>[3.0.8,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>plugin-appointmentfactory</artifactId>
+            <version>[1.0.1,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>module-appointment-alert</artifactId>
+            <version>[3.0.0,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>module-appointment-filling</artifactId>
+            <version>[3.0.0,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>module-appointment-management</artifactId>
+            <version>[1.0.4,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>module-appointment-desk</artifactId>
+            <version>[1.0.3,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        
+        <!-- Workflow -->
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>plugin-workflow</artifactId>
+            <version>[6.0.2,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>module-workflow-appointment</artifactId>
+            <version>[3.0.3,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+  
+        
+         <!-- user management -->
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>plugin-mylutece</artifactId>
+            <version>[4.0.4,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>module-mylutece-database</artifactId>
+            <version>[6.0.0,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>plugin-profiles</artifactId>
+            <version>[3.1.1,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+              
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>plugin-mydashboard</artifactId>
+            <version>[1.3.0,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>module-appointment-mydashboard</artifactId>
+            <version>[3.0.1,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        
+        
+        
+        <!-- compléments techniques -->
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>plugin-filegenerator</artifactId>
+            <version>[2.1.4,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>library-image</artifactId>
+            <version>[1.0.4,)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>plugin-captcha</artifactId>
+            <version>[2.2.0,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>module-captcha-jcaptcha</artifactId>
+            <version>[2.2.1,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        
+        
+        <!-- dependencies version fix -->
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>plugin-genericattributes</artifactId>
+            <version>[2.4.1,)</version>
+            <type>lutece-plugin</type>
+        </dependency>     
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>plugin-referencelist</artifactId>
+            <version>[1.1.2,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>plugin-regularexpression</artifactId>
+            <version>[4.0.1,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+ 	<dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>plugin-asynchronousupload</artifactId>
+            <version>[1.1.9,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>plugin-mermaidjs</artifactId>
+            <version>[1.0.0,)</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        
+  
+
+    </dependencies>
+
+</project>
+
