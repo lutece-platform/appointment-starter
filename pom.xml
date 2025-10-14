@@ -8,8 +8,9 @@
     
     <groupId>fr.paris.lutece.starters</groupId>
     <artifactId>appointment-starter</artifactId>
-    <packaging>lutece-site</packaging>
     <version>1.0.0-SNAPSHOT</version>
+    <name>Lutece Appointment Starter</name>
+    <description>Lutece Appointment Starter</description>
     
     <scm>
         <connection>scm:git:https://github.com/lutece-platform/appointment-starter.git</connection>
