@@ -10,13 +10,13 @@
     <artifactId>appointment-starter</artifactId>
     <name>Lutece Appointment Starter</name>
     <version>7.1.0-SNAPSHOT</version>
-    <description />
+    <description></description>
     <scm>
         <connection>scm:git:https://github.com/lutece-platform/appointment-starter.git</connection>
         <developerConnection>scm:git:https://github.com/lutece-platform/appointment-starter.git</developerConnection>
+        <tag>HEAD</tag>
         <url>https://github.com/lutece-platform/appointment-starter</url>
-      <tag>HEAD</tag>
-  </scm>
+    </scm>
     <repositories>
         <repository>
             <snapshots>
@@ -36,35 +36,30 @@
         </repository>
     </repositories>
     <dependencies>
-        <!-- Core Profile -->
         <dependency>
             <groupId>fr.paris.lutece</groupId>
             <artifactId>lutece-core</artifactId>
-            <version>7.1.6-SNAPSHOT</version>
+            <version>[7.1.6-beta-01]</version>
             <type>lutece-core</type>
         </dependency>
-        <!-- Lutece search indexing -->
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>library-lucene</artifactId>
             <version>[5.0.3]</version>
             <type>lutece-plugin</type>
         </dependency>
-         <!-- Lutece User API -->
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>library-user-api</artifactId>
             <version>[1.0.1]</version>
-            <type>jar</type> 
+            <type>jar</type>
         </dependency>
-         <!-- Lutece RBAC -->
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>library-rbac-api</artifactId>
             <version>[1.0.0]</version>
-            <type>jar</type> 
+            <type>jar</type>
         </dependency>
-        <!-- Lutece Workflow -->
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>library-workflow-core</artifactId>
@@ -75,27 +70,24 @@
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>library-workgroup-api</artifactId>
             <version>[1.0.0]</version>
-            <type>jar</type> 
+            <type>jar</type>
         </dependency>
-        <!-- Lutece JMX API Library -->                                              
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>library-jmx-api</artifactId>
             <version>[1.0.0]</version>
-            <type>jar</type> 
-        </dependency>               
-        <!-- Lutece Freemarker -->       
+            <type>jar</type>
+        </dependency>
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>library-freemarker</artifactId>
             <version>[1.3.5]</version>
-            <type>jar</type>            
+            <type>jar</type>
         </dependency>
-
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>plugin-appointment</artifactId>
-            <version>3.0.9-SNAPSHOT</version>
+            <version>[3.0.9-beta-03]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
@@ -131,13 +123,13 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>plugin-workflow</artifactId>
-            <version>6.0.8-SNAPSHOT</version>
+            <version>[6.0.8-beta-01]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-workflow-appointment</artifactId>
-            <version>3.0.4-SNAPSHOT</version>
+            <version>[3.0.4-beta-02]</version>
             <type>lutece-plugin</type>
             <exclusions>
                 <exclusion>
@@ -158,16 +150,10 @@
             <version>[2.1.6]</version>
             <type>lutece-plugin</type>
         </dependency>
-        <!-- <dependency>
-            <groupId>fr.paris.lutece.plugins</groupId>
-            <artifactId>library-image</artifactId>
-            <version>[1.0.4]</version>
-            <type>jar</type>
-        </dependency> -->
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>library-httpaccess</artifactId>
-            <version>3.0.4-SNAPSHOT</version>
+            <version>[3.0.4-beta-01]</version>
         </dependency>
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
@@ -190,13 +176,13 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>plugin-systeminfo</artifactId>
-            <version>[3.1.6-SNAPSHOT]</version>
+            <version>[3.1.6-beta-02]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>plugin-sitelabels</artifactId>
-            <version>[2.0.2-SNAPSHOT]</version>
+            <version>[2.0.2-beta-01]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
@@ -220,7 +206,7 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>plugin-asynchronousupload</artifactId>
-            <version>1.1.13-SNAPSHOT</version>
+            <version>[1.1.13-beta-01]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
@@ -241,8 +227,6 @@
             <version>[2.0.4]</version>
             <type>jar</type>
         </dependency>
-
-        <!-- GRU -->
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>library-grubusiness</artifactId>
@@ -261,8 +245,6 @@
             <version>[2.1.10]</version>
             <type>jar</type>
         </dependency>
-
-        <!-- Address-->
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>plugin-address</artifactId>
@@ -287,6 +269,5 @@
             <version>[1.0.4]</version>
             <type>lutece-plugin</type>
         </dependency>
-
     </dependencies>
 </project>
