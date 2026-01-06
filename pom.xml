@@ -250,7 +250,7 @@
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-workflow-notifygru</artifactId>
             <version>[2.1.10]</version>
-            <type>jar</type>
+            <type>lutece-plugin</type>
         </dependency>
 
         <!-- Address-->
