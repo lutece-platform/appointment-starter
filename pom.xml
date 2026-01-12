@@ -104,19 +104,19 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-appointment-filling</artifactId>
-            <version>[3.0.1-beta-01]</version>
+            <version>3.0.1</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-appointment-management</artifactId>
-            <version>[1.0.5-beta-01]</version>
+            <version>1.0.5</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-appointment-desk</artifactId>
-            <version>[1.0.4-beta-01]</version>
+            <version>1.0.4</version>
             <type>lutece-plugin</type>
             <exclusions>
                 <exclusion>
@@ -134,7 +134,7 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-workflow-appointment</artifactId>
-            <version>[3.0.4-beta-02]</version>
+            <version>3.0.4</version>
             <type>lutece-plugin</type>
             <exclusions>
                 <exclusion>
