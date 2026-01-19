@@ -146,7 +146,7 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>plugin-profiles</artifactId>
-            <version>[4.0.1]</version>
+            <version>4.0.2-SNAPSHOT</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
