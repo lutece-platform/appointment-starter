@@ -9,12 +9,12 @@
     <groupId>fr.paris.lutece.starters</groupId>
     <artifactId>appointment-starter</artifactId>
     <name>Lutece Appointment Starter</name>
-    <version>7.1.0-SNAPSHOT</version>
-    <description></description>
+    <version>7.1.0-beta-05</version>
+    <description />
     <scm>
         <connection>scm:git:https://github.com/lutece-platform/appointment-starter.git</connection>
         <developerConnection>scm:git:https://github.com/lutece-platform/appointment-starter.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>appointment-starter-7.1.0-beta-05</tag>
         <url>https://github.com/lutece-platform/appointment-starter</url>
     </scm>
     <repositories>
