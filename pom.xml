@@ -279,6 +279,7 @@
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-notifygru-appointment</artifactId>
             <version>[3.0.3]</version>
+            <type>lutece-plugin</type>
         </dependency>
     </dependencies>
 </project>
