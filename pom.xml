@@ -39,7 +39,7 @@
         <dependency>
             <groupId>fr.paris.lutece</groupId>
             <artifactId>lutece-core</artifactId>
-            <version>7.1.8-SNAPSHOT</version>
+            <version>[7.1.8-beta-01]</version>
             <type>lutece-core</type>
         </dependency>
         <dependency>
@@ -87,13 +87,13 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>plugin-appointment</artifactId>
-            <version>3.0.11-SNAPSHOT</version>
+            <version>[3.0.11-beta-01]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-appointment-alert</artifactId>
-            <version>3.0.2-SNAPSHOT</version>
+            <version>[3.0.2-beta-01]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
@@ -129,7 +129,7 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-workflow-appointment</artifactId>
-            <version>3.0.5-SNAPSHOT</version>
+            <version>[3.0.6-beta-01]</version>
             <type>lutece-plugin</type>
             <exclusions>
                 <exclusion>
@@ -188,7 +188,7 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>plugin-genericattributes</artifactId>
-            <version>2.4.9-SNAPSHOT</version>
+            <version>[2.4.8]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
@@ -200,7 +200,7 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>plugin-regularexpression</artifactId>
-            <version>4.0.4-SNAPSHOT</version>
+            <version>[4.0.4-beta-01]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
@@ -248,13 +248,13 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-notifygru-appointment</artifactId>
-            <version>3.0.4-SNAPSHOT</version>
+            <version>[3.0.3]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-appointmentgru</artifactId>
-            <version>2.0.8-SNAPSHOT</version>
+            <version>[2.0.8-beta-01]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
