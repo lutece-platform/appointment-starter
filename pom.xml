@@ -39,7 +39,7 @@
         <dependency>
             <groupId>fr.paris.lutece</groupId>
             <artifactId>lutece-core</artifactId>
-            <version>7.1.9-beta-01</version>
+            <version>[7.1.9-beta-01]</version>
             <type>lutece-core</type>
         </dependency>
         <dependency>
@@ -81,13 +81,13 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>library-freemarker</artifactId>
-            <version>1.3.6-beta-01</version>
+            <version>[1.3.6-beta-01]</version>
             <type>jar</type>
         </dependency>
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>plugin-appointment</artifactId>
-            <version>3.0.12-beta-01</version>
+            <version>[3.0.12-beta-01]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
@@ -129,7 +129,7 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-workflow-appointment</artifactId>
-            <version>3.0.7-beta-01</version>
+            <version>[3.0.7-beta-01]</version>
             <type>lutece-plugin</type>
             <exclusions>
                 <exclusion>
@@ -230,13 +230,13 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-workflow-notifygru</artifactId>
-            <version>2.1.12-beta-01</version>
+            <version>[2.1.12-beta-01]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-notifygru-appointment</artifactId>
-            <version>3.0.4-beta-01</version>
+            <version>[3.0.4-beta-01]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
